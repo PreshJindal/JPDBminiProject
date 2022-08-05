@@ -1,0 +1,14 @@
+.box{
+    width: 500px;
+    height: 500px;
+    margin-top: 150px;
+}
+
+.space
+{
+    margin-top: 40px;
+}
+
+.col{
+    background-color: rgb(215, 240, 240);
+}

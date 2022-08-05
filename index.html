@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Student Log</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/script.js"></script>
+    <script src="js/jquery-1.8.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(
+            function () {
+                $(".fa").mousedown(function () {
+                    $(this).removeClass("fa-eye-slash");
+                    $(this).addClass("fa-eye");
+                    $("#password").attr("type", "text");
+
+                });
+                $(".fa").mouseup(function () {
+                    $(this).removeClass("fa-eye");
+                    $(this).addClass("fa-eye-slash");
+                    $("#password").attr("type", "password");
+                });
+            }
+        );
+    </script>
+</head>
+
+<body class="col">
+    <div class="container">
+        <center>
+            <h2>Student Registration Form</h2>
+        </center>
+        <center>
+            <div class="box">
+                <form id="student" method="post">
+                    <div class="form-group space">
+                        <span><label for="studNumber">Enrollment Number: </label> <label id="studID">
+                            </label></span>
+                        <input type="text" class="form-control" name="empId" id="studNumber"
+                            placeholder="Enter Enrollment Number" required>
+                    </div>
+                    <div class="form-group space">
+                        <label for="studName">Name: </label>
+                        <input type="text" class="form-control" id="studName"
+                            placeholder="Enter Student Name - will be used as username" name="studName">
+                    </div>
+                    <div class="form-group space">
+                        <label for="studEmail">Email:</label>
+                        <input type="email" class="form-control" id="studEmail" placeholder="Enter Student Email"
+                            name="studEmail">
+                    </div>
+                    <div class="form-group space">
+                        <label for="password">Password:</label>
+                        <table width="100%">
+                            <tr>
+                                <td><input type="password" class="form-control" id="password"
+                                        placeholder="Enter Password" name="password"></td>
+                                <td><i class="fa fa-eye-slash" aria-hidden="true"></i></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <input type="button" class="btn btn-primary space" id="empSave" value="Save"
+                        onclick="saveDetails();">
+                </form>
+            </div>
+        </center>
+    </div>
+
+</body>
+
+</html>
