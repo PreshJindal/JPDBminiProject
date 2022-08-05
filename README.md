@@ -11,3 +11,14 @@ JsonPowerDB is a Real-time, High Performance, Lightweight and Simple to Use, Res
   -GET
 some other commands include - column manipulation commands which are performed by changing the end-point URL, some more IRL commands as stated on JPDB Documentation and some IDL commands
 
+## What I did for my mini project
+created an student registration page for students to fill in their details such as enrollment number, name, email, password
+- Everything is validated through javascript
+- Enrollment number is validated for 10 digits only
+- Email ID follows regular email validations
+
+![index](https://user-images.githubusercontent.com/77404110/183159380-f7658bcc-55ee-4aad-992e-bcd3f473d64c.png)
+
+## Database at a glance
+
+![database](https://user-images.githubusercontent.com/77404110/183159434-b97e1c8f-9368-49e4-83ea-f572b7c10099.png)
