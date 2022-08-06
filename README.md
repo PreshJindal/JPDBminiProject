@@ -27,3 +27,5 @@ created an student registration page for students to fill in their details such 
 Currently nothing happens after you click login, only a message appears showing the json string response from the database corresponding to the enrollment number entered
  
  ![get](https://user-images.githubusercontent.com/77404110/183237007-c4efa92d-64f8-4f86-be9e-c8569331e664.png)
+ 
+ ![res](https://user-images.githubusercontent.com/77404110/183237054-047f2f64-eb76-4abf-9cc8-e5c93ea8a6fb.png)
