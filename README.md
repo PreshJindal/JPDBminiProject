@@ -22,3 +22,8 @@ created an student registration page for students to fill in their details such 
 ## Database at a glance
 
 ![database](https://user-images.githubusercontent.com/77404110/183159434-b97e1c8f-9368-49e4-83ea-f572b7c10099.png)
+
+## new - GET enabled in a login page 
+Currently nothing happens after you click login, only a message appears showing the json string response from the database corresponding to the enrollment number entered
+ 
+ ![get](https://user-images.githubusercontent.com/77404110/183237007-c4efa92d-64f8-4f86-be9e-c8569331e664.png)
